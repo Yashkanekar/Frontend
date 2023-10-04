@@ -1,10 +1,9 @@
-/*  "var" is partially hoisted in JS (memory is allocated for "var" but it is initialized to "undefined" which is an actual type in JS)
+/*
+  "var" is partially hoisted in JS (memory is allocated for "var" but it is initialized to "undefined" which is an actual type in JS)
     "function" are completed hoisted (memory is allocated in the creation phase and the funtion definition is also stored in that memory)
 
     "let" and "const" are also hoisted but they are not initialized to "undefined" like var so if you try to access any 'let' or "const" before defining or initializing it, JS will throw error as "cannot access before initialization"
   */ 
-
-
 
 /* here, first we have defined favFood = maggi in the global scope
 so when JS engine goes inside the showFavFood function, the var favFood is partially hoisted;
@@ -20,7 +19,7 @@ function showFavFood() {
 
     var favFood = "fried rice"
 
-    console.log("new fav food is"+ favFood)
+    console.log("new fav food is"+ favFood);
 }
 
 showFavFood()

@@ -9,7 +9,7 @@ const obj1 = {
     name: "Jane",
     sayName() {
       return function() {
-        console.log(this) obj2.sayName()()
+        console.log(this) //obj2.sayName()()
       }
     }
   }

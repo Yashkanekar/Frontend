@@ -14,7 +14,7 @@ const wizard = {
     name: "mary",
     health: 50,
   }
-  
+  //
   console.log(archer.health) // logs 50
   // how to borrow method of wizard to use in archer object
   

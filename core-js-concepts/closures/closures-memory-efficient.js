@@ -24,4 +24,6 @@ const heavyDuty = (index) => {
   getHeavyDuty(688)
   getHeavyDuty(700)
   getHeavyDuty(800)
+
+//closurs are also termed as c.o.v.e. closed over variable environment.
         
